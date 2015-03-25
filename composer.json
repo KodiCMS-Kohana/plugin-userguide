@@ -1,0 +1,29 @@
+{
+	"name":        "kodicms/userguide",
+	"type":        "kodicms-plugin",
+	"description": "The official KodiCMS userguide plugin",
+	"homepage":    "http://www.kodicms.ru/",
+	"license":     "BSD-3-Clause",
+	"keywords":    ["kohana", "framework", "kodicms", "cms", "plugin", "userguide"],
+	"authors": [
+		{
+			"name":     "Pavel Buchnev",
+			"email":    "butschster@gmail.com",
+			"homepage": "http://www.kodicms.ru/",
+			"role":     "developer"
+		}
+	],
+	"support": {
+		"issues":   "https://github.com/KodiCMS/plugin-userguide/issues",
+		"forum":    "http://www.kodicms.ru/forum",
+		"source":   "https://github.com/KodiCMS/plugin-userguide"
+	},
+	"require": {
+		"kodicms/core": "dev-master"
+	},
+	"extra": {
+		"installer-paths": {
+			"cms/plugins/{$name}": ["type:kodicms-plugin"]
+		}
+	}
+}
