@@ -1,5 +1,5 @@
 {
-	"name":        "kodicms/userguide",
+	"name":        "kodicms_kohana/userguide",
 	"type":        "kodicms-plugin",
 	"description": "The official KodiCMS userguide plugin",
 	"homepage":    "http://www.kodicms.ru/",
